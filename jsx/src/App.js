@@ -5,9 +5,9 @@ function App()
     return(
         <div>
             <div>Personal Digital Assitance</div>
-            <ProfileCard/>
-            <ProfileCard/>
-            <ProfileCard/>
+            <ProfileCard car="Audi"/>
+            <ProfileCard car= "Porsche"/>
+            <ProfileCard car="Range rover"/>
         </div>
     ); 
 }
